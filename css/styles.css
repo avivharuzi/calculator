@@ -101,12 +101,20 @@ button::-moz-focus-inner {
     background: rgba(0, 0, 0, 0.1);
 }
 
+.col-view {
+    overflow-x: auto;
+}
+
 .center-hack {
 	margin: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+#view {
+    overflow: scroll;
 }
 
 @media only screen and (max-width: 1199px) {

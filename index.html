@@ -12,14 +12,14 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/lib/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="shortcut icon" type="image/x-icon" href="images/web-icons/fav-icon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="images/web-icons/favicon.ico">
         <link rel="icon" type="image/png" href="images/web-icons/icon.png">
     </head>
     <body>
         <div id="mainContainer">
             <div id="mainCalculator" class="center-hack">
                 <div class="row display">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-view">
                         <div id="header">
                             <span id="view">0</span>
                         </div>
@@ -27,8 +27,8 @@
                 </div>
                 <div id="calculatoContainer">
                     <div class="row row-calc">
-                        <div class="col-sm-3 col-calc text-center">
-                            <span id="clear">C</span>
+                        <div class="col-sm-3 col-calc text-center" id="clear">
+                            <span>C</span>
                         </div>
                         <div class="col-sm-9">
                             <span id="action"></span>
@@ -86,7 +86,7 @@
                         <div class="col-sm-3 col-calc text-center operators">
                             <span class="text-primar" data-operator="divided">/</span>
                         </div>
-                        <div class="col-sm-3 col-calc text-center">
+                        <div class="col-sm-3 col-calc text-center" id="equalsMain">
                             <span class="text-primary" id="equals" data-result="">=</span>
                         </div>
                     </div>

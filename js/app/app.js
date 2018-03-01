@@ -9,7 +9,7 @@ $(function () {
         moveNumber($(this).children().attr("data-operator")); 
     });
     
-    EQUALS.on("click", function () {
+    EQUALS_MAIN.on("click", function () {
         displayNumber();
     });
     
