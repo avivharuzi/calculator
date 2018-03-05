@@ -52,7 +52,7 @@ function displayNumber() {
 
     if (!isFinite(resultNumber)) {
         if (isNaN(resultNumber)) {
-            resultNumber = "You enter invalid arguments";
+            resultNumber = "NaN";
         } else {
             resultNumber = "0";
             return;
